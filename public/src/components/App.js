@@ -1,11 +1,24 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
+import Header from  "./Header";
+import TransformBar from "./TransformBar";
+import  HistoryTable from "./HistoryTable";
 
 class App extends Component {
+
+
   render() {
     return (
-        <h1>This is a react div container !!!</h1>
-    )
+      <div>
+        <Header/>
+        <TransformBar/>
+        <HistoryTable/>
+      </div>
+
+    );
+
   }
+
+
 }
 
 export default App;

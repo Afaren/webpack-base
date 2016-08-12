@@ -1,19 +1,15 @@
-import React, {Component} from "react"; // eslint-disable-line no-unused-vars
-import Header from  "./Header";
-import TransformBar from "./TransformBar";
-import  HistoryTable from "./HistoryTable";
+import React, { Component } from 'react'; // eslint-disable-line no-unused-vars
+import AddTodo from '../container/AddTodo';
+import ResultList from './ResultList';
 
 class App extends Component {
 
-
   render() {
     return (
-      <div>
-        <Header/>
-        <TransformBar/>
-        <HistoryTable/>
-      </div>
-
+        <div>
+          <AddTodo />
+          <ResultList />
+        </div>
     );
 
   }
